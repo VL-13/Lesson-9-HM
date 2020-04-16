@@ -1,0 +1,47 @@
+@import "reset";
+
+@font-face {
+    font-family: 'Poppins', sans-serif;
+    src: url(https://fonts.googleapis.com/css2?family=Poppins:wght@800;900&display=swaps);
+}
+
+@import "background";
+
+@import "button";
+
+@import "main-section";
+
+@import "info-section";
+
+@media only screen and (min-width: 480px) {
+    .main{
+     padding-top: 10%;
+     padding-left: 10%;
+     font-size: 1.2em;
+    }
+    
+    ul {
+        flex-direction: row;
+    }
+    li{
+        width: 30%;
+        } 
+  }
+
+  @media only screen and (min-width: 1024px) {
+    ul {
+        flex-direction: row;
+    }
+    li{
+        width: 15%;
+        }   
+    div.block-info{
+        padding: 20px 70px;
+    }
+  }
+  
+@media screen and (max-width: 1024px) {
+    div.fixed-button {
+      display: none;
+    }
+}

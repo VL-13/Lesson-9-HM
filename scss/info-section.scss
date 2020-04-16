@@ -1,0 +1,36 @@
+h3 {
+    text-align: center;
+    padding: 30px;
+    color: darkblue;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 45px;
+}
+
+ul{
+    list-style-type: none;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    flex-flow: column wrap;
+    padding: 30px;
+    justify-content: space-between;
+    color: gray;
+    font-size: 18px;
+}
+
+li{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    width: 100%;
+    } 
+
+.number {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 50px;
+    line-height: 75px;
+}
